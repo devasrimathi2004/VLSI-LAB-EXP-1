@@ -1,7 +1,6 @@
-module fs(a,b,bin,d,bout);
-input a,b,bin;
+module full_subtractor(a,b,c,d,bout);
+input a,b,c;
 output d,bout;
-
-
-
+assign d = a^b^c;
+assign bout = (~a&b) | (~(a^b)&c);
 endmodule
