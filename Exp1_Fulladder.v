@@ -1,6 +1,7 @@
-module half_str(s,c,a,b);
-input a,b;
-output s,c;
-xor (s,a,b);
-and (c,a,b);
+module full_add(sum,cout,a,b,c);
+input a,b,c;
+output sum,cout;
+  assign sum =(a^b^c);
+  assign cout=(a&b) | (b&c)| (a&c);
+
 endmodule
