@@ -1,7 +1,6 @@
-module fs(a,b,bin,d,bout);
-input a,b,bin;
-output d,bout;
-
-
-
-endmodule
+module half_subtractor( D,Bo,A,B);
+input A,B;
+output D,Bo;
+assign D = A^B;
+assign Bo = (~A)&B;
+endmodule  
