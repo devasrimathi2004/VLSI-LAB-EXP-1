@@ -56,7 +56,16 @@ not(notgate,a);
 endmodule
 ~~~
 
-OUTPUT:
+OUTPUT:![WhatsApp Image 2024-04-02 at 6 23 56 PM](https://github.com/Kirthana-2004/VLSI-LAB-EXP-1/assets/166363441/a2957116-ac5b-4d22-b40e-63f5527ee995)
+![WhatsApp Image 2024-04-02 at 6 23 56 PM (1)](https://github.com/Kirthana-2004/VLSI-LAB-EXP-1/assets/166363441/d12f5e0e-ddf3-4089-b803-4e18f95cc72e)
+![WhatsApp Image 2024-04-02 at 6 23 52 PM](https://github.com/Kirthana-2004/VLSI-LAB-EXP-1/assets/166363441/a2ad987c-ac14-4a30-96ff-3c9183ee5359)
+
+
+VERILOG CODE:
+Half Adder:
+verilog code:
+~~~
+
 
 
 RESULT:
