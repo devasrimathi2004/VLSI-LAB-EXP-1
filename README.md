@@ -56,8 +56,12 @@ not(notgate,a);
 endmodule
 ~~~
 
-OUTPUT:
+OUTPUT:C:\Users\asus\Downloads\WhatsApp Image 2024-04-02 at 6.23.56 PM.jpeg
+C:\Users\asus\Downloads\WhatsApp Image 2024-04-02 at 6.23.56 PM (1).jpeg
+C:\Users\asus\Downloads\WhatsApp Image 2024-04-02 at 6.23.52 PM.jpeg
 
 
 RESULT:
+
+
 
