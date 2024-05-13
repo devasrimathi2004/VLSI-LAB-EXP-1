@@ -92,6 +92,8 @@ assign Bo = (~A)&B;
 endmodule
 ~~~
 OUTPUT:
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/2412fa4a-745e-4857-897e-24e7b3272981)
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/c4b6d4ee-2fdc-4db9-8e55-2968ebbb326f)
 
 
 
