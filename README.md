@@ -73,7 +73,9 @@ output sum,cout;
     
 endmodule
 ~~~
-OUTPUT
+
+OUTPUT:
+
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/1e9d273d-f9dd-47c7-94cf-23618c97e8f5)
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/2441f375-c38a-4f59-a941-729c963cf852)
 
@@ -91,7 +93,9 @@ assign D = A^B;
 assign Bo = (~A)&B;
 endmodule
 ~~~
+
 OUTPUT:
+
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/2412fa4a-745e-4857-897e-24e7b3272981)
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/c4b6d4ee-2fdc-4db9-8e55-2968ebbb326f)
 
@@ -106,6 +110,7 @@ endmodule
 ~~~
 
 OUTPUT:
+
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/5934d13e-a48b-46a6-9543-bc919b1df830)
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/fee80903-199d-4321-9e8a-9306ec240313)
 
@@ -118,9 +123,30 @@ assign D = A^B;
 assign Bo = (~A)&B;
 endmodule
 ~~~
+
 OUTPUT:
+
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/4c934617-22ea-4714-a08d-2df78d14d356)
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/8f75136a-8710-46b6-b23f-52c68ab4d0c9)
+
+LOGICGATES:
+~~~
+module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+input a,b;
+output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
+and(andgate,a,b);
+or(orgate,a,b);
+xor(xorgate,a,b);
+nand(nandgate,a,b);  
+nor(norgate,a,b);
+xnor(xnorgate,a,b);
+not(notgate,a);
+endmodule
+~~~
+
+OUTPUT:
+
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/761c06e9-4583-4a26-bea0-f7a838dd8610)
 
 
 
