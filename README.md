@@ -56,7 +56,29 @@ Full Subtractor:
 
 VERILOG CODE:
 
-----Type Verilog Code
+FULL ADDER
+~~~
+module fulladder(sum,cout, a,b,c);
+input a,b,c;
+output sum,cout;
+  wire w1,w2,w3,w4,w5;
+  xor x1(w1,a,b);
+  xor x2(sum,w1,c);  
+  and a1(w2,a,b);
+  and a2(w3,b,c);
+  and a3(w4,a,c);
+  
+  or o1(w5,w2,w3);
+  or o2(cout,w5,w4);
+    
+endmodule
+~~~
+OUTPUT
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/1e9d273d-f9dd-47c7-94cf-23618c97e8f5)
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/2441f375-c38a-4f59-a941-729c963cf852)
+
+
+
 
 OUTPUT:
 
