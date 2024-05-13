@@ -109,6 +109,20 @@ OUTPUT:
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/5934d13e-a48b-46a6-9543-bc919b1df830)
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/fee80903-199d-4321-9e8a-9306ec240313)
 
+HALFSUBTRACTOR:
+~~~
+module half_subtractor( D,Bo,A,B);
+input A,B;
+output D,Bo;
+assign D = A^B;
+assign Bo = (~A)&B;
+endmodule
+~~~
+OUTPUT:
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/4c934617-22ea-4714-a08d-2df78d14d356)
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/8f75136a-8710-46b6-b23f-52c68ab4d0c9)
+
+
 
 
 RESULT:
