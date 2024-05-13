@@ -149,6 +149,41 @@ OUTPUT:
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/761c06e9-4583-4a26-bea0-f7a838dd8610)
 
 
+RIPPLECARRYADDER:
+~~~
+module rippe_adder(S, Cout, X, Y,Cin);
+ input [3:0] X, Y;// Two 4-bit inputs
+ input Cin;
+ output [3:0] S;
+ output Cout;
+ wire w1, w2, w3;
+ // instantiating 4 1-bit full adders in Verilog
+ fulladder u1(S[0], w1,X[0], Y[0], Cin);
+ fulladder u2(S[1], w2,X[1], Y[1], w1);
+ fulladder u3(S[2], w3,X[2], Y[2], w2);
+ fulladder u4(S[3], Cout,X[3], Y[3], w3);
+endmodule
+
+module fulladder(S, Co, X, Y, Ci);
+  input X, Y, Ci;
+  output S, Co;
+  wire w1,w2,w3;
+  //Structural code for one bit full adder
+  xor G1(w1, X, Y);
+  xor G2(S, w1, Ci);
+  and G3(w2, w1, Ci);
+  and G4(w3, X, Y);
+  or G5(Co, w2, w3);
+endmodule
+~~~
+
+OUTPUT:
+
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/8a4309a1-681a-4c25-a835-5e66bca4b755)
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/34407067-94d9-4e25-99d0-c96c7d1ebbb3)
+
+
+
 
 
 RESULT:
