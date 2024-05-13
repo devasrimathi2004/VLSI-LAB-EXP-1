@@ -149,7 +149,7 @@ OUTPUT:
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/761c06e9-4583-4a26-bea0-f7a838dd8610)
 
 
-RIPPLECARRYADDER:
+RIPPLECARRYADDER_4BIT:
 ~~~
 module rippe_adder(S, Cout, X, Y,Cin);
  input [3:0] X, Y;// Two 4-bit inputs
@@ -182,9 +182,37 @@ OUTPUT:
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/8a4309a1-681a-4c25-a835-5e66bca4b755)
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/34407067-94d9-4e25-99d0-c96c7d1ebbb3)
 
+RIPPLECRRYADDER_8BIT:
+~~~
+module fulladder(S, Co, X, Y, Ci);
+  input X, Y, Ci;
+  output S, Co;
+  wire w1,w2,w3;
+  //Structural code for one bit full adder
+  xor G1(w1, X, Y);
+  xor G2(S, w1, Ci);
+  and G3(w2, w1, Ci);
+  and G4(w3, X, Y);
+  or G5(Co, w2, w3);
+endmodule
 
+module fulladder(S, Co, X, Y, Ci);
+  input X, Y, Ci;
+  output S, Co;
+  wire w1,w2,w3;
+  //Structural code for one bit full adder
+  xor G1(w1, X, Y);
+  xor G2(S, w1, Ci);
+  and G3(w2, w1, Ci);
+  and G4(w3, X, Y);
+  or G5(Co, w2, w3);
+endmodule
+~~~
 
+OUTPUT:
 
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/425f5294-f096-44e1-aac5-c90f0dd2087e)
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/fac6908f-2f08-473a-af96-ba5272822884)
 
 RESULT:
 
