@@ -96,6 +96,18 @@ OUTPUT:
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/c4b6d4ee-2fdc-4db9-8e55-2968ebbb326f)
 
 HALFADDER:
+~~~
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry; // sum and carry
+assign sum = a^b;
+assign carry = a&b ;
+endmodule
+~~~
+
+OUTPUT:
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/5934d13e-a48b-46a6-9543-bc919b1df830)
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/fee80903-199d-4321-9e8a-9306ec240313)
 
 
 
