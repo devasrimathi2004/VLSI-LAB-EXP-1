@@ -81,8 +81,6 @@ OUTPUT:
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/2441f375-c38a-4f59-a941-729c963cf852)
 
 
-
-
 OUTPUT:
 
 FULLSUBTRACTOR:
@@ -148,6 +146,7 @@ endmodule
 OUTPUT:
 
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/761c06e9-4583-4a26-bea0-f7a838dd8610)
+![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/522cbf52-a178-4c69-b0ee-68d8ed87f1cd)
 
 
 RIPPLECARRYADDER_4BIT:
@@ -215,5 +214,5 @@ OUTPUT:
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/425f5294-f096-44e1-aac5-c90f0dd2087e)
 ![image](https://github.com/devasrimathi2004/VLSI-LAB-EXP-1/assets/166363441/fac6908f-2f08-473a-af96-ba5272822884)
 
-RESULT:
+RESULT:Hence the fulladder,fullsubractor,halfadder,halfsubractor,logicgates,ripplecarryadder_8 ,ripplecarryadder_4 are simulated and synthesised using vivado 2023.1.
 
